@@ -17,7 +17,7 @@ How to use:
    * Source: https://Rayquaza01.github.io/tasker-data-graph
    * Data Info: Defaults to %SMSRB, the text recived in the profile
    * Use Pie: Set to true if you want a pie chart, otherwise it will be a doughnut chart.
-   * Colors: A comma separated list of colors to use in the chart.
+   * Colors: A comma separated list of colors to use in the chart. Can be HEX codes or HTML color names.
  * Test it out!
    * Dial \*3282# to request data info. A text will arrive shortly which should trigger the profile.
 
