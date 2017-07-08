@@ -1,11 +1,5 @@
 function main() {
     var data = dataInfo.split("\n");
-    if (usePie) {
-        var chartType = "pie";
-    } else {
-        var chartType = "doughnut"
-    }
-    var chartColors = colors.split(",")
     var endDate = data[0].match(/\d{2}\/\d{2}\/\d{2}/g)[0]
     var daysLeft = new Date(endDate).getDate() - new Date().getDate();
     var usedData = parseFloat(data[1].match(/[\d.,]+/g)[0].replace(",", ""));
@@ -24,18 +18,16 @@ function main() {
     labels.push("Available");
     dataset.push(availableData);
     var ctx = document.getElementById("datagraph");
-    var myChart = new Chart(ctx, {
+    new Chart(ctx, {
     	type: chartType,
     	data: {
         	labels: labels,
         	datasets: [{
             	data: dataset,
-                backgroundColor: chartColors
+                backgroundColor: colors.split(",")
             }]
         }
     });
-    var date = document.createElement("span");
-    date.innerText = data[0] + " (" + daysLeft + " days left)";
-    document.getElementById("data").append(date);
+    document.getElementById("date").innerText = data[0] + " (" + daysLeft + " days left)";
 }
 document.addEventListener("DOMContentLoaded", main);
