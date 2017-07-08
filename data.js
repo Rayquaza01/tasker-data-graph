@@ -1,6 +1,6 @@
 function main() {
     var data = dataInfo.split("\n");
-    if (type) {
+    if (usePie) {
         var chartType = "pie";
     } else {
         var chartType = "doughnut"
