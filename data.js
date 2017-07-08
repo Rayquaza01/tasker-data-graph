@@ -1,5 +1,11 @@
 function main() {
     var data = dataInfo.split("\n");
+    if (type) {
+        var chartType = "pie";
+    } else {
+        var chartType = "doughnut"
+    }
+    var chartColors = colors.split(",")
     var endDate = data[0].match(/\d{2}\/\d{2}\/\d{2}/g)[0]
     var daysLeft = new Date(endDate).getDate() - new Date().getDate();
     var usedData = parseFloat(data[1].match(/[\d.,]+/g)[0].replace(",", ""));
@@ -19,14 +25,12 @@ function main() {
     dataset.push(availableData);
     var ctx = document.getElementById("datagraph");
     var myChart = new Chart(ctx, {
-    	type: 'doughnut',
+    	type: chartType,
     	data: {
         	labels: labels,
         	datasets: [{
             	data: dataset,
-                backgroundColor: [
-                	"#9CCC65","#03A9F4","#673AB7","#795548","#FFA726","#546E7A"
-                ]
+                backgroundColor: chartColors
             }]
         }
     });
