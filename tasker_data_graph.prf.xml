@@ -1,0 +1,65 @@
+<TaskerData sr="" dvi="1" tv="5.0b6m">
+	<Profile sr="prof90" ve="2">
+		<cdate>1479840646804</cdate>
+		<edate>1499606398042</edate>
+		<id>90</id>
+		<mid0>99</mid0>
+		<nme>tasker-data-graph</nme>
+		<Event sr="con0" ve="2">
+			<code>7</code>
+			<pri>0</pri>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3">104</Str>
+			<Str sr="arg2" ve="3">Next Bill Cycle*</Str>
+		</Event>
+	</Profile>
+	<Task sr="task99">
+		<cdate>1479840649952</cdate>
+		<edate>1499606367354</edate>
+		<id>99</id>
+		<nme>Data</nme>
+		<pri>100</pri>
+		<Action sr="act0" ve="7">
+			<code>1165325195</code>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<ScreenPreset>&lt;null&gt;</ScreenPreset>
+					<ScreenPreset-type>java.lang.String</ScreenPreset-type>
+					<com.twofortyfouram.locale.intent.extra.BLURB>Display Mode: Normal
+Source: https://Rayquaza01.github.io/tasker-data-graph
+Toast Duration: 5000
+Height: 400
+Gravity: Center
+Animation: Slide In From Top
+Show Duration: 500
+Hide Duration: 250
+Data Info: %SMSRB
+Chart Type: doughnut
+Chart Colors: #9CCC65,#03A9F4,#673AB7,#795548,#FFA726,#546E7A</com.twofortyfouram.locale.intent.extra.BLURB>
+					<com.twofortyfouram.locale.intent.extra.BLURB-type>java.lang.String</com.twofortyfouram.locale.intent.extra.BLURB-type>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS>parameters</net.dinglisch.android.tasker.JSON_ENCODED_KEYS>
+					<net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>java.lang.String</net.dinglisch.android.tasker.JSON_ENCODED_KEYS-type>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%err
+Error Code
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;%errmsg
+Error Message
+Only available if you select &amp;lt;b&amp;gt;Continue Task After Error&amp;lt;/b&amp;gt; and the action ends in error&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES1&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>parameters plugininstanceid plugintypeid </net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS>
+					<net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>java.lang.String</net.dinglisch.android.tasker.extras.VARIABLE_REPLACE_KEYS-type>
+					<net.dinglisch.android.tasker.subbundled>true</net.dinglisch.android.tasker.subbundled>
+					<net.dinglisch.android.tasker.subbundled-type>java.lang.Boolean</net.dinglisch.android.tasker.subbundled-type>
+					<parameters>{"inputJavascriptInject":{},"overlayToastDuration":"5000","webScreenOverlay":{"overlayFlingToDismiss":false,"overlayHidDuration":"250","overlayReturnToOriginalPosition":false,"overlayShowDuration":"500"},"webscreenColors":{},"webscreenCommands":{"waitForCommand":false,"webscreenCloseOnAutoAppsCommand":false},"webscreenDialog":{"dimBackground":false,"hideDialogShadow":false},"webscreenDialogMode":"0","webscreenHtmlInject":{"webscreenReturnHtmlInjection":false},"webscreenSource":"https://Rayquaza01.github.io/tasker-data-graph","webscreenWindow":{"dialogAnimation":"0","dialogGravity":"17","dialogHeight":"400"},"generatedValues":{"inputwebscreengeneratedcolors":"#9CCC65,#03A9F4,#673AB7,#795548,#FFA726,#546E7A","inputwebscreengeneratedchartType":"doughnut","inputwebscreengenerateddataInfo":"%SMSRB"}}</parameters>
+					<parameters-type>java.lang.String</parameters-type>
+					<plugininstanceid>9173bf33-c57b-4e03-a6e6-3e8ad1c943e0</plugininstanceid>
+					<plugininstanceid-type>java.lang.String</plugininstanceid-type>
+					<plugintypeid>com.joaomgcd.autotools.intent.IntentWebScreen</plugintypeid>
+					<plugintypeid-type>java.lang.String</plugintypeid-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">com.joaomgcd.autotools</Str>
+			<Str sr="arg2" ve="3">com.joaomgcd.autotools.activity.ActivityConfigWebScreen</Str>
+			<Int sr="arg3" val="30"/>
+		</Action>
+	</Task>
+</TaskerData>

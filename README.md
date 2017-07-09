@@ -7,6 +7,7 @@ Requirements:
  * AT&T
 
 How to use:
+ * Import [this profile](https://raw.githubusercontent.com/Rayquaza01/tasker-data-graph/gh-pages/tasker_data_graph.prf.xml) or...
  * Create a Profile in Tasker:
    * Event > Phone > Recived Text
    * Type: Any
