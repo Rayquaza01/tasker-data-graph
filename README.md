@@ -22,4 +22,4 @@ How to use:
  * Test it out!
    * Dial \*3282# to request data info. A text will arrive shortly which should trigger the profile.
 
-This project uses [Chart.js](https://chartjs.org)
+This project uses [Chart.js](http://www.chartjs.org)
