@@ -1,7 +1,8 @@
 function main() {
     var data = dataInfo.split("\n");
     var endDate = data[0].match(/\d{2}\/\d{2}\/\d{2}/g)[0]
-    var daysLeft = new Date(endDate).getDate() - new Date().getDate();
+    var daysLeftMS = new Date(endDate) - new Date();
+    var daysLeft = new Date(daysLeftMS).getDate();
     var usedData = parseFloat(data[1].match(/[\d.,]+/g)[0].replace(",", ""));
     var totalData = parseFloat(data[1].match(/[\d.,]+/g)[1].replace(",", ""));
     var availableData = totalData - usedData;
