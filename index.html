@@ -6,12 +6,16 @@
         <meta name="autotoolswebscreen" type="variablejs" id="chartType" label="Chart Type" description="Whether to use a doughnut or pie chart. Defaults to doughnut" defaultValue="doughnut" options="doughnut,pie">
         <meta name="autotoolswebscreen" type="variablejs" id="colors" label="Chart Colors" defaultValue="#9CCC65,#03A9F4,#673AB7,#795548,#FFA726,#546E7A" description="Colors to use in the chart, separated by commas">
         <link rel="stylesheet" type="text/css" href="https://Rayquaza01.github.io/tasker-data-graph/style.css">
+        <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
     </head>
     <body>
         <h1>Data Usage</h1>
         <canvas id="datagraph"></canvas>
-        <br>
         <span id="date"></span>
+        <span id="usage">$USED used of $TOTAL ($PERCENTAGE%)</span>
+        <span id="overage"></span>
+        <!-- <script src="Chart.min.js"></script> -->
+        <!-- <script src="data.js"></script> -->
         <script src="https://Rayquaza01.github.io/tasker-data-graph/Chart.min.js"></script>
         <script src="https://Rayquaza01.github.io/tasker-data-graph/data.js"></script>
     </body>
